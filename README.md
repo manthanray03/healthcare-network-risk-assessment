@@ -23,6 +23,7 @@ Full-page screenshot: [docs/screenshots/dashboard-full.png](docs/screenshots/das
 
 | File | What it is |
 |---|---|
+| [docs/tra-summary.pdf](docs/tra-summary.pdf) | Two-page summary: results, top 5 risks, recommendations, vendor result |
 | [docs/threat-risk-assessment.md](docs/threat-risk-assessment.md) | The TRA report: scope, assets, findings, top 5 risks, recommendations by priority, accepted risks, HIPA safeguards |
 | [docs/methodology.md](docs/methodology.md) | Likelihood and impact scales, rating bands, treatment and acceptance rules, KRI thresholds |
 | [docs/control-mapping.md](docs/control-mapping.md) | Every control mapped to the risks it reduces, NIST CSF 2.0 and ISO 27001 Annex A |
@@ -39,6 +40,7 @@ data/
   vendor_questions.csv              15 weighted security questions, 6 of them must-haves
   vendor_responses_prairie_imaging.csv
 docs/
+  tra-summary.pdf                   Two-page summary of the assessment
   threat-risk-assessment.md
   methodology.md
   control-mapping.md
