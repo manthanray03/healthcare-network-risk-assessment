@@ -1,0 +1,16 @@
+question_id,domain,question,reference,weight,must_have
+V01,Governance,Does the vendor have a documented security program with a named security lead?,GV.RR-02; A.5.2,2,N
+V02,Assurance,Can the vendor provide a current SOC 2 Type II report or ISO 27001 certificate that covers the service and region we would use?,GV.SC-07; A.5.22,3,Y
+V03,Data residency,Is personal health information stored and processed only in Canada?,A.5.23; A.5.34,3,Y
+V04,Data protection,Is data encrypted at rest with AES-256 or equivalent?,PR.DS-01; A.8.24,3,Y
+V05,Data protection,Are all connections protected with TLS 1.2 or higher?,PR.DS-02; A.8.24,3,Y
+V06,Access control,Do vendor staff need MFA to reach customer data?,PR.AA-03; A.8.5,3,Y
+V07,Access control,Can our users sign in with SSO and be given role-based access?,PR.AA-05; A.5.15,2,N
+V08,Logging,Are access logs for our data kept for at least 1 year and available on request?,PR.PS-04; A.8.15,2,N
+V09,Incident response,Will the vendor notify us of a confirmed breach within 24 hours?,GV.SC-05; A.5.20; A.5.24,3,Y
+V10,Vulnerability management,Does the vendor run yearly penetration tests and patch critical issues within a set deadline?,ID.RA-01; A.8.8,2,N
+V11,Business continuity,Is there a tested disaster recovery plan with stated recovery time and recovery point objectives?,PR.IR-03; A.5.30,2,N
+V12,Subprocessors,Does the vendor publish its subprocessors and give notice before adding new ones?,GV.SC-07; A.5.21,2,N
+V13,Data lifecycle,Will the vendor return our data and certify deletion when the contract ends?,ID.AM-08; A.8.10,2,N
+V14,People,Are staff with access to customer data background checked?,GV.RR-04; A.6.1,1,N
+V15,People,Do vendor staff complete security awareness training every year?,PR.AT-01; A.6.3,1,N

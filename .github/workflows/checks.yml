@@ -1,0 +1,20 @@
+name: checks
+
+# Runs the tests and the data quality checks on every push, so a bad edit to the
+# register (wrong score, missing owner, action for a risk that doesn't exist) fails the build.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - run: python report.py --strict --out build/reports

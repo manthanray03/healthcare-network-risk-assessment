@@ -1,0 +1,37 @@
+action_id,risk_id,action,owner,due_date,status,completed_date
+A01,R01,Deploy endpoint detection and response (EDR) to all Windows workstations and servers,Infrastructure Manager,2026-12-15,In progress,
+A02,R01,Add immutable offline backups for the EHR servers,Infrastructure Manager,2027-01-31,Not started,
+A03,R01,Run a full EHR restore test and record the recovery time,Infrastructure Manager,2027-02-28,Not started,
+A04,R02,"Build a medical device inventory with OS, firmware and vendor support end dates",Biomedical Engineering Lead,2026-10-15,In progress,
+A05,R02,Agree quarterly patch windows with each device vendor,Biomedical Engineering Lead,2026-12-31,Not started,
+A06,R02,Alert on any new outbound connection from VLAN 50,Security Operations Analyst,2026-11-30,Not started,
+A07,R03,Add a quarterly guest ACL review to the network team calendar,Network Team Lead,2026-11-30,Not started,
+A08,R03,Add a test case to the test plan: guest VLAN cannot reach any internal subnet,Network Team Lead,2026-11-15,Not started,
+A09,R05,Move device logins to individual accounts through RADIUS tied to AD,Network Team Lead,2026-10-10,In progress,
+A10,R05,Require MFA on the VPN and on a new management jump host,Network Team Lead,2026-11-30,Not started,
+A11,R05,Keep one break-glass local account per device in the password vault,Network Team Lead,2026-09-30,Done,2026-09-26
+A12,R06,Encrypt the backup share and limit access to the network team group,Network Team Lead,2026-12-31,Not started,
+A13,R07,"Write alert rules for failed logins, config changes and firewall denies from clinical VLANs",Security Operations Analyst,2026-11-15,In progress,
+A14,R07,Extend log retention from 30 days to 1 year,Infrastructure Manager,2026-10-20,Done,2026-10-24
+A15,R07,Start a weekly log review with sign-off,Security Operations Analyst,2026-10-01,Done,2026-09-29
+A16,R08,Confirm TLS 1.2 or higher on every clinical app that crosses the WAN,Application Integration Lead,2026-12-15,Not started,
+A17,R08,Move the legacy HL7 feed to TLS or route it over IPsec,Application Integration Lead,2027-01-31,Not started,
+A18,R09,Start quarterly user access reviews signed off by managers,Privacy Officer,2026-12-01,Not started,
+A19,R09,Send a monthly EHR audit report of same-surname and VIP record lookups,Privacy Officer,2027-01-15,Not started,
+A20,R10,Enforce MFA for all staff accounts,Security Awareness Lead,2026-11-30,In progress,
+A21,R10,Run phishing awareness training and quarterly simulations,Security Awareness Lead,2026-10-31,In progress,
+A22,R11,Add a second pfSense node as a high-availability pair,Infrastructure Manager,2027-03-31,Not started,
+A23,R12,"Route vendor access through a jump host with per-session approval, MFA and session logging",Vendor Management Lead,2026-09-30,Not started,
+A24,R12,Add remote access terms to the device vendor contract,Vendor Management Lead,2026-10-15,Not started,
+A25,R13,Require Canadian data residency or an approved exception in the contract,Vendor Management Lead,2026-12-15,In progress,
+A26,R13,Get the vendor's SOC 2 Type II report for the Canadian region,Vendor Management Lead,2026-11-30,In progress,
+A27,R14,Disable unused switch ports at all five clinics,Network Team Lead,2026-08-31,Done,2026-08-28
+A28,R14,Enable port security on clinic access switches,Network Team Lead,2026-08-31,Done,2026-09-12
+A29,R15,Install lockable racks at the five clinics and keep a key log,Facilities Manager,2027-02-28,Not started,
+A30,R16,Require a change ticket for every device change,Network Team Lead,2026-10-31,In progress,
+A31,R16,Compare nightly backups with the approved baseline and alert on differences,Network Team Lead,2026-12-15,Not started,
+A32,R17,Add a second domain controller at Hospital A and set up DHCP failover,Infrastructure Manager,2027-01-15,Not started,
+A33,R19,"Write a network incident playbook (ransomware, compromised device, lost site)",Security Operations Analyst,2027-01-31,Not started,
+A34,R19,Run a tabletop exercise with clinical managers,Security Operations Analyst,2027-02-15,Not started,
+A35,R20,Run monthly authenticated vulnerability scans of servers and network devices,Security Operations Analyst,2026-10-01,In progress,
+A36,R20,"Set fix deadlines for scan findings: critical within 15 days, high within 30 days",Security Operations Analyst,2026-11-15,Not started,

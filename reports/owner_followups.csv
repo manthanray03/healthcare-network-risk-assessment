@@ -1,0 +1,8 @@
+owner,action_id,risk_id,action,due_date,status,flag,days
+Biomedical Engineering Lead,A04,R02,"Build a medical device inventory with OS, firmware and vendor support end dates",2026-10-15,In progress,Overdue,13
+Network Team Lead,A09,R05,Move device logins to individual accounts through RADIUS tied to AD,2026-10-10,In progress,Overdue,18
+Network Team Lead,A30,R16,Require a change ticket for every device change,2026-10-31,In progress,Due soon,3
+Security Awareness Lead,A21,R10,Run phishing awareness training and quarterly simulations,2026-10-31,In progress,Due soon,3
+Security Operations Analyst,A35,R20,Run monthly authenticated vulnerability scans of servers and network devices,2026-10-01,In progress,Overdue,27
+Vendor Management Lead,A23,R12,"Route vendor access through a jump host with per-session approval, MFA and session logging",2026-09-30,Not started,Overdue,28
+Vendor Management Lead,A24,R12,Add remote access terms to the device vendor contract,2026-10-15,Not started,Overdue,13

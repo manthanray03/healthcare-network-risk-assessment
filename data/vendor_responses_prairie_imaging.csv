@@ -1,0 +1,16 @@
+question_id,answer,evidence
+V01,Yes,Security policy v4.2 reviewed; named CISO
+V02,Partial,SOC 2 Type II (2026) covers the US-East region only
+V03,No,Primary storage in Toronto; disaster recovery replica in US-East
+V04,Yes,AES-256 at rest with keys in the cloud provider's KMS
+V05,Yes,TLS 1.2 minimum enforced; checked with an external TLS scan
+V06,Yes,MFA required for all support staff
+V07,Partial,SAML SSO supported; only two built-in roles
+V08,Partial,Logs kept 90 days; longer retention is an extra cost
+V09,Partial,"Contract says ""without undue delay"" with no hour limit"
+V10,Yes,Yearly third-party penetration test; critical patches within 14 days
+V11,Yes,DR tested twice a year; RTO 4 hours and RPO 1 hour
+V12,Partial,Subprocessor list is public; no advance notice of changes
+V13,Yes,Export in DICOM format and a deletion certificate within 30 days
+V14,Yes,Criminal record checks for all staff
+V15,Yes,Yearly training plus phishing simulations
